@@ -67,8 +67,12 @@ function RotatingCircles() {
           Hi, I'm <span className="text-[#915EFF]">Zeeshan</span>
         </h1>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I design and develope<br className="sm:block hidden" /> Stunning, yet powerfull user  <br className="sm:block hidden" />
-          interfaces and web applications
+          {/* I design and develope<br className="sm:block hidden" /> Stunning, yet powerfull user  <br className="sm:block hidden" />
+          interfaces and web applications */}
+          I design and develop digital experiences that 
+          seamlessly<br className="sm:block hidden" /> blend creativity with technical expertise.
+           My focus<br className="sm:block hidden" /> is on crafting elegant interfaces and intuitive user journeys <br className="sm:block hidden" />that 
+           captivate audiences and drive engagement.
 
         </p>
         {/* <MagneticButton link='abcd'/> */}

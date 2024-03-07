@@ -20,6 +20,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import php from "./tech/php.png";
+import nextjs from "./tech/nextjs.png";
+import laravel from "./tech/laravel.png";
+import codeigniter from "./tech/codeigniter.png";
+import jquery from "./tech/jquery.png";
+import mysql from "./tech/mysql.png";
+
 
 import meta from "./company/meta.png";
 import outlook from "./company/outlook.png";
@@ -69,4 +76,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  php,
+  jquery,
+  laravel,
+  codeigniter,
+  nextjs,
+  mysql,
 };

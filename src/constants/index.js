@@ -27,6 +27,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  jquery,
+  nextjs,
+  php,
+  laravel,
+  codeigniter,
 } from "../assets";
 
 export const navLinks = [
@@ -77,32 +82,32 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "jquery",
+    icon: jquery,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "PHP",
+    icon: php,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Codeigniter",
+    icon: codeigniter,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Laravel",
+    icon: laravel,
   },
   {
     name: "git",
@@ -111,10 +116,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -126,10 +127,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2023 - Dec 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the development of Outlook Travel's website with CodeIgniter backend, improving operations and user experience.",
+"Implemented web development best practices for robust security.",
+"Achieved a 50% sales increase by optimizing the website for conversions and employing strategic SEO tactics.",
+"Enhanced client processing efficiency by 80% through website dashboard automation, reducing reliance on third-party software.",
     ],
   },
   {
@@ -139,10 +140,14 @@ const experiences = [
     iconBg: "#383E56",
     date: "September 2022 - April 2023 ",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the development of Trips and Holiday's website, boosting user engagement and traffic by 30%.",
+"Implemented a secure employee user system, enhancing dashboard access control.",
+"Integrated a powerful blog CMS, driving organic traffic and boosting SEO by 25%.",
+"Developed an efficient inquiry card and receipt system, improving transaction management by 40% and enhancing client satisfaction.",
+
+
+
+
     ],
   },
   {
@@ -152,10 +157,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Dec 2022 - Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+     
+"Spearheaded the full-cycle development of a US-based company's website, ensuring a cohesive online presence.",
+"Created an email-based project to automate data compilation, improving efficiency and client communication.",
+"Developed a user-friendly dashboard, reducing administrative overhead by 60% and boosting user satisfaction.",
+"Enhanced client satisfaction, resulting in a 40% increase in repeat business and referrals.",
     ],
   },
   {
@@ -165,10 +171,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Aug 2023 - Oct 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications in wordpress and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Adding payment gateways and other necessary things to run a buisness ",
     ],
   },
   
@@ -179,10 +185,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      
+"Established two Shopify stores, iPresto (technology) and Sembliss (beauty), tailoring the Ella theme to meet their specific requirements.",
+"Enhanced the Sembliss store with visually appealing elements suited for a beauty store, while optimizing the iPresto store for a seamless tech shopping experience.",
+"Implemented strategic design modifications and navigational improvements to increase sales and enhance customer trust.",
+"Employed conversion rate optimization techniques and trust-building features such as customer reviews and secure payment options, resulting in boosted sales and heightened customer confidence in both stores.",
     ],
   },
 ];
@@ -269,7 +276,7 @@ const projects = [
       {
         name: "nextjs",
         color: "blue-text-gradient",
-      },
+      },  
       {
         name: "Prisma",
         color: "green-text-gradient",
